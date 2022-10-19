@@ -1,0 +1,23 @@
+.card {
+  max-width: 30%;
+  height: 100px;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.card:hover {
+  border-color: #ff6700;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  box-shadow: 0px 0px 100px #1f51ff;
+}
+
+.card:hover .card-header {
+  border-color: #ff6700;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}

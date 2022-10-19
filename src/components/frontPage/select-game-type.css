@@ -1,0 +1,10 @@
+.container {
+  width: 100%;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  flex: auto;
+  justify-content: center;
+}

@@ -1,0 +1,44 @@
+.button {
+  margin-top: 30px;
+}
+
+.wordwrap-container {
+  margin-top: 100px;
+  align-items: center;
+  position: relative;
+  justify-self: center;
+  max-width: 100%;
+  width: 100%;
+  display: block;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.last-word {
+  margin-bottom: 30px;
+}
+
+.title {
+  color: aqua;
+}
+
+.show-modal {
+  animation: fadein 0.5s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
